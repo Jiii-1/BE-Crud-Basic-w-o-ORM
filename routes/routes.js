@@ -9,7 +9,7 @@ router.get('/books', getAllBooks)
 router.get('/book/:id', getBookById)
 router.post('/book', addBook)
 router.put('/book/:id', updateBook)
-router.delete('book/:id', deleteBook)
+router.delete('/book/:id', deleteBook)
 
 router.get('/', (req, res) => {
     res.json('this is book API')
